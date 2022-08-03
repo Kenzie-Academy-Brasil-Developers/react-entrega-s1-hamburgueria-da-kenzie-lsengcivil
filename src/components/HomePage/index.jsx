@@ -1,8 +1,15 @@
+import Header from '../Header'
+
+import Container from "./styles";
+
 function HomePage () {
     return (
-        <div>
-
-        </div>
+        <Container>
+            <Header/>
+            <div className='main' >
+                
+            </div>
+        </Container>
     )
 }
 
