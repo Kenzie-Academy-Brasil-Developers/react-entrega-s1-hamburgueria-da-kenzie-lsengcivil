@@ -1,4 +1,6 @@
 import Header from '../Header'
+import ProductsList from '../ProductList';
+import Cart from '../Cart';
 
 import Container from "./styles";
 
@@ -7,7 +9,8 @@ function HomePage () {
         <Container>
             <Header/>
             <div className='main' >
-                
+                <ProductsList/>
+                <Cart/>
             </div>
         </Container>
     )
