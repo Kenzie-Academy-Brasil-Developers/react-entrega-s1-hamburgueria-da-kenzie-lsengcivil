@@ -3,11 +3,13 @@ import InputSearch from "../InputSearch";
 
 import Container from "./styles";
 
-function Header () {
+function Header ({showProducts}) {
     return (
         <Container>
             <Logo/>
-            <InputSearch/>
+            <InputSearch
+                showProducts={showProducts}
+            />
         </Container>
     )
 }

@@ -1,19 +1,26 @@
 import styled from "styled-components";
 
 const Search = styled.form`
+    background-color: white;
+    border: solid 2px var(--color-gray-20);
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+
+    :focus-within {
+        border: solid 2px var(--color-gray-100);
+    }
+    
     input {
-        width: 17rem;
+        width: 11rem;
         padding: 0.75rem;
-
-        border: solid 1px var(--color-gray-50);
-        border-radius: 0.5rem;
-
+        background-color: white;
+        
+        border: none;
         font-size: 1rem;
     }
 
     button {
-        padding: 0.7rem;
-
+        padding: 1rem;
         border: none;
         border-radius: 0.5rem;
 
