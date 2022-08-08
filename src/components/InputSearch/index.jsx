@@ -1,10 +1,13 @@
 import Search from "./styles";
 
-function InputSearch () {
+function InputSearch ({showProducts}) {
     return (
-        <Search>
-            <input type="text" placeholder="Digitar pesquisa" />
-            {/* <button>Pesquisar</button> */}
+        <Search onSubmit={showProducts}>
+            <input 
+                type="text"
+                placeholder="Digitar pesquisa"
+            />
+            <button type="submit">Pesquisar</button>
         </Search>
     )
 }

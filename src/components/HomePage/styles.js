@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 const Container = styled.div`
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    overflow-x: hidden;
 
     .main {
         width: 100%;
@@ -21,7 +22,7 @@ const Container = styled.div`
         }
     }
 
-    @media screen and (min-width: 781px) {
+    @media screen and (min-width: 882px) {
         .main {
             flex-direction: row;
             justify-content: space-evenly;

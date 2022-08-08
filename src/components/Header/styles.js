@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-    width: 100%;
-    height: 18%;
+    width: 100vw;
+    min-height: 18%;
 
-    background-color: var(--color-gray-20);
+    background-color: var(--color-gray-0);
 
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@ const Container = styled.div`
     gap: 1rem;
 
     @media screen and (min-width: 650px) {
-        height: 14%;
+        min-height: 14%;
         
         flex-direction: row;
         justify-content: space-between;
